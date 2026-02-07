@@ -4,7 +4,7 @@ export default () => ({
         apiKey: process.env.NVIDIA_API_KEY,
         baseUrl: process.env.NVIDIA_URL || 'https://integrate.api.nvidia.com/v1',
     },
-    maxContextTokens: parseInt(process.env.MAX_CONTEXT_TOKENS, 10) || 100000,
-    charsPerToken: parseInt(process.env.CHARS_PER_TOKEN, 10) || 2,
+    maxContextTokens: parseInt(process.env.MAX_CONTEXT_TOKENS, 10) || 500000,
+    charsPerToken: parseInt(process.env.CHARS_PER_TOKEN, 10) || 4,
     logFile: process.env.LOG_FILE || 'proxy.log',
 });
