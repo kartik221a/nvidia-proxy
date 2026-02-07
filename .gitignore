@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Build outputs
+dist/
+
+# IDE/Editor files (optional but common)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary/backup files
+*~
+*.tmp
+
+# OpenClaw/Workspace specific (if applicable)
+.openclaw/
+
+# Config files with secrets
+configs_dump.txt
+openclaw_config_temp.json
+openclaw_clean.json
+*.json.bak
+
+# Python helper scripts (not needed in repo)
+*.py
